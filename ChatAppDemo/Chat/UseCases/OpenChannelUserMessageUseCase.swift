@@ -1,15 +1,15 @@
 import Foundation
 import SendbirdChatSDK
 
-open class OpenChannelUserMessageUseCase {
+class OpenChannelUserMessageUseCase {
     
-    public let channel: OpenChannel
+    let channel: OpenChannel
     
-    public init(channel: OpenChannel) {
+    init(channel: OpenChannel) {
         self.channel = channel
     }
     
-    open func sendMessage(_ message: String, completion: @escaping (Result<UserMessage, SBError>) -> Void) -> UserMessage? {
+    func sendMessage(_ message: String, completion: @escaping (Result<UserMessage, SBError>) -> Void) -> UserMessage? {
         return channel.sendUserMessage(message) { message, error in
             if let error = error {
                 completion(.failure(error))
@@ -22,7 +22,7 @@ open class OpenChannelUserMessageUseCase {
         }
     }
     
-    open func resendMessage(_ message: UserMessage, completion: @escaping (Result<BaseMessage, SBError>) -> Void) {
+    func resendMessage(_ message: UserMessage, completion: @escaping (Result<BaseMessage, SBError>) -> Void) {
         channel.resendUserMessage(message) { message, error in
             if let error = error {
                 completion(.failure(error))
@@ -35,7 +35,7 @@ open class OpenChannelUserMessageUseCase {
         }
     }
     
-    open func updateMessage(_ message: UserMessage, to newMessage: String, completion: @escaping (Result<UserMessage, SBError>) -> Void) {
+    func updateMessage(_ message: UserMessage, to newMessage: String, completion: @escaping (Result<UserMessage, SBError>) -> Void) {
         let params = UserMessageUpdateParams(message: newMessage)
 
         channel.updateUserMessage(messageId: message.messageId, params: params) { message, error in
@@ -50,7 +50,7 @@ open class OpenChannelUserMessageUseCase {
         }
     }
     
-    open func deleteMessage(_ message: BaseMessage, completion: @escaping (Result<Void, SBError>) -> Void) {
+    func deleteMessage(_ message: BaseMessage, completion: @escaping (Result<Void, SBError>) -> Void) {
         channel.deleteMessage(message) { error in
             if let error = error {
                 completion(.failure(error))
@@ -60,5 +60,4 @@ open class OpenChannelUserMessageUseCase {
             completion(.success(()))
         }
     }
-    
 }

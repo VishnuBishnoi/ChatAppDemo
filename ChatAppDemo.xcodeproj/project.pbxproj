@@ -286,7 +286,6 @@
 				3695A606299D497000D8AC84 /* ViewModel */,
 				3695A605299D495600D8AC84 /* Model */,
 				3695A608299D49A900D8AC84 /* UseCases */,
-				3695A5F9299D46C800D8AC84 /* OpenChannelUserMessageUseCase.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -320,6 +319,7 @@
 		3695A608299D49A900D8AC84 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				3695A5F9299D46C800D8AC84 /* OpenChannelUserMessageUseCase.swift */,
 				3695A615299D6BAD00D8AC84 /* ChatUseCase.swift */,
 			);
 			path = UseCases;
