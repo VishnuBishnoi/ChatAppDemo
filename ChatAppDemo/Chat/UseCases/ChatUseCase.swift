@@ -132,13 +132,8 @@ extension ChatUseCase {
 }
 
 extension ChatUseCase: BaseChannelDelegate {
-//    func channel(_ sender: BaseChannel, didReceive message: BaseMessage) {
-//        print(message)
-//    }
-    
     func channel(_ channel: SendbirdChatSDK.BaseChannel, didReceive message: SendbirdChatSDK.BaseMessage) {
         print("-----------------------------------------------------")
-
         print(message)
     }
 }
