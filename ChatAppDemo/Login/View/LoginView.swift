@@ -92,7 +92,13 @@ struct LoginView: View {
             UINavigationController(rootViewController: UIHostingController(rootView: channelListView))
         ], animated: false)
         tabBarController.modalPresentationStyle = .fullScreen
-        UIApplication.shared.windows[0].rootViewController?.present(tabBarController, animated: true)
+    
+        let window = UIApplication
+            .shared
+            .connectedScenes
+            .flatMap { ($0 as?UIWindowScene)?.windows ?? [] }
+            .first(where: \.isKeyWindow)
+        window?.rootViewController?.present(tabBarController, animated: true)
     }
 }
 

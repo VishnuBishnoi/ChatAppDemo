@@ -2,6 +2,10 @@ import SwiftUI
 
 extension View {
     func endEditing(_ force: Bool) {
-        UIApplication.shared.windows.forEach { $0.endEditing(force)}
+        UIApplication
+            .shared
+            .connectedScenes
+            .flatMap { ($0 as?UIWindowScene)?.windows ?? [] }
+            .forEach { $0.endEditing(force) }
     }
 }
