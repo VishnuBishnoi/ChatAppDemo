@@ -13,9 +13,9 @@ Functional Requirements:-
 	
     3.2 Options to create a new channel. 
 	
-    3.4 option to leave a channel 
+    3.3 option to leave a channel 
 	
-    3.5 Add pull to refresh channel list screen
+    3.4 Add pull to refresh channel list screen
 	
 4. On selection on a channel show chat screen. 
 
