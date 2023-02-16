@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EFF9EE8E-47AD-4413-B984-5CEDF95F2294"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F81B90B-9913-41E1-87FB-54E3258409C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F29A6D01-B40E-4DB9-AA45-946BF0C6A8BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "exitChannel(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "loadInitialMessagesfor(channelModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D - 9390f7e58080533c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;&gt;, Swift.Optional&lt;SendbirdChatSDK.SBError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.loadInitialMessagesfor(channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D - 9390f7e58080533c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;&gt;, Swift.Optional&lt;SendbirdChatSDK.SBError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.loadInitialMessagesfor(channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D - 9390f7e58080533c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;&gt;, Swift.Optional&lt;SendbirdChatSDK.SBError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.loadInitialMessagesfor(channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D - 9390f7e58080533c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;&gt;, Swift.Optional&lt;SendbirdChatSDK.SBError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.loadInitialMessagesfor(channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SendbirdChatSDK.BaseMessage&gt;, Swift.Error&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "08F5AEA7-BF56-4186-B9AC-CF0ACB21F83D - 48ba255f734dba56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "$defer() -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DB83025-1B9D-4E63-B4F7-04BC835269DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "loadInitialMessagesfor(channelModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4990631-D45B-49DC-BE8E-69CC863B6404"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "loadInitialMessagesfor(channelModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7264028F-25C3-4E31-90F4-5ACA30A4730B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "messageInputView(_:didTouchUserMessageButton:message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7264028F-25C3-4E31-90F4-5ACA30A4730B - 4dcf684a0ba17c23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.OpenChannelViewController.messageInputView(_: ChatAppDemo.MessageInputView, didTouchUserMessageButton: __C.UIButton, message: Swift.String) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/OpenChannelViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "7264028F-25C3-4E31-90F4-5ACA30A4730B - 9df91ed0e94f32ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SendbirdChatSDK.UserMessage, SendbirdChatSDK.SBError&gt;) -&gt; () in ChatAppDemo.OpenChannelViewController.messageInputView(_: ChatAppDemo.MessageInputView, didTouchUserMessageButton: __C.UIButton, message: Swift.String) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/OpenChannelViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "120C5BE4-0732-4B5D-9944-D45D9F802625"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "messageInputView(_:didTouchUserMessageButton:message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B3D263F-E1E4-401D-98FA-0950905CBF4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "sendMessage(message:channelModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62DA84C2-3456-4A12-A23F-DD179BB6BD99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "sendMessage(message:channelModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64D63981-5406-4DA4-9C36-CB3C5D3F769B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "sendMessage(message:channelModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DA4303F-FA5D-40BA-8CF2-AA32F8F5FFB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "sendMessage(message:channelModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DA4303F-FA5D-40BA-8CF2-AA32F8F5FFB3 - bc9b7dbc8ef9195a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.sendMessage(message: Swift.String, channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "9DA4303F-FA5D-40BA-8CF2-AA32F8F5FFB3 - bc9b7dbc8ef9195a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.sendMessage(message: Swift.String, channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "9DA4303F-FA5D-40BA-8CF2-AA32F8F5FFB3 - ec205f956506724b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;SendbirdChatSDK.UserMessage, SendbirdChatSDK.SBError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;) -&gt; ()) -&gt; () in ChatAppDemo.ChannelListUseCase.sendMessage(message: Swift.String, channelModel: ChatAppDemo.ChannelListModel) -&gt; Combine.AnyPublisher&lt;SendbirdChatSDK.UserMessage, ChatAppDemo.ChannelListUseCaseError&gt;"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/UseCase/ChannelListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3CB0535-52E6-484E-80F8-648C8A610876"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D995D87C-FF0B-4D38-BEE8-AA92E80926CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/AddExtraDataMessageCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "updateMessageDetails(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6BA632D-7001-431D-AC35-5EB170C570B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "openChannelMessageListUseCase(_:didReceiveError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C60AB0C-8136-496A-ACE4-51EF201CDF2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/UIViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "presentAlert(error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25D7F902-1185-4E7F-A8B6-8161B7441011"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loadCachedUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23AE35CB-330D-4CED-9F58-3B9A39DCF83A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6815AF80-EF01-40FC-A117-1D6FA08AE3F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/OpenChannelListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "openChannelListUseCase(_:didReceiveError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6815AF80-EF01-40FC-A117-1D6FA08AE3F8 - 776bc130d61bddfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.OpenChannelListViewController.openChannelListUseCase(_: ChatAppDemo.OpenChannelListUseCase, didReceiveError: SendbirdChatSDK.SBError) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/OpenChannelListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "6815AF80-EF01-40FC-A117-1D6FA08AE3F8 - 69eefd5580db5496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ChatAppDemo.OpenChannelListViewController.openChannelListUseCase(_: ChatAppDemo.OpenChannelListUseCase, didReceiveError: SendbirdChatSDK.SBError) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/OpenChannelListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C3A7057-CD69-4F8E-A245-7A80BA202E59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadCachedUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C3A7057-CD69-4F8E-A245-7A80BA202E59 - 13953622e0b46a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.LoginViewModel.loadCachedUser() -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "6C3A7057-CD69-4F8E-A245-7A80BA202E59 - 13953622e0b46a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.LoginViewModel.loadCachedUser() -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16E4B530-BD54-457C-9A4D-3DB131E9AAB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FDE352D-96D3-406A-8554-2A2BA3F91DA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B518E29-F3FD-49D2-B278-A7184455F0B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2375E9E-6F50-40F0-B674-2ED1BEB1FBBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "850565CB-F389-412A-B96C-7C84B2A84DEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "850565CB-F389-412A-B96C-7C84B2A84DEA - 4c4b51302386deed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.LoginViewModel.connectUser(userId: Swift.String) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "850565CB-F389-412A-B96C-7C84B2A84DEA - 8ea0701cfff7b2ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SendbirdChatSDK.User, SendbirdChatSDK.SBError&gt;) -&gt; () in ChatAppDemo.LoginViewModel.connectUser(userId: Swift.String) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "850565CB-F389-412A-B96C-7C84B2A84DEA - 1f78071d548d4f74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;SendbirdChatSDK.User, SendbirdChatSDK.SBError&gt;) -&gt; () in ChatAppDemo.LoginViewModel.connectUser(userId: Swift.String) -&gt; ()"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D557643C-EB39-4664-AC5D-708BEAD6CCA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A94768AC-84A0-49FD-B1E4-EEF49C675850"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "connectUser(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3F45F73-2B47-4DCB-8533-76F74C122D27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B3F45F73-2B47-4DCB-8533-76F74C122D27 - 468d2f0142f01b15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0 in ChatAppDemo.LoginView.body.getter : some"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "B3F45F73-2B47-4DCB-8533-76F74C122D27 - b18b4e6a382fe048"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0 in ChatAppDemo.LoginView.body.getter : some"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07D9D4B6-850B-498E-B01F-9F14593E280F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/SwiftUI/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "07D9D4B6-850B-498E-B01F-9F14593E280F - 21ee33ee429bf7ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppDemo.LoginView.body.getter : some"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "07D9D4B6-850B-498E-B01F-9F14593E280F - 468d2f0142f01b15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0 in ChatAppDemo.LoginView.body.getter : some"
+                  moduleName = "ChatAppDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnudutt/Desktop/ChatAppDemo/ChatAppDemo/SwiftUI/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B7C6C4A-0DC8-4C11-8DFA-DCF310CF435B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/Chat/UseCases/ChatUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "ChatUseCase"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8DE86B1-E584-49E0-BF4C-5CCFF42E2911"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/Chat/UseCases/ChatUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "ChatUseCase"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D873A17-E28E-44BD-9DC4-C681FEB0191E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppDemo/Chat/UseCases/ChatUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "channel(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
