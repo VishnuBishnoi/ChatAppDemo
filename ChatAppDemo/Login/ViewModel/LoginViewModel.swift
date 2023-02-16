@@ -29,27 +29,24 @@ final class LoginViewModel: ObservableObject {
     }
     
     private let usecase: LoginUseCaseType
+    private let router: LoginRouterType
     
-    init(usecase: LoginUseCaseType = LoginUseCase())  {
+    init(usecase: LoginUseCaseType = LoginUseCase(), router: LoginRouterType = LoginRouter()) {
         self.usecase = usecase
-        loadCachedUser()
+        self.router = router
     }
     
-    private func loadCachedUser() {
+    func fetchUserIfAlreadyLogedIn() async {
         guard let currentUser = usecase.currentUser else {
-            Task {
-                await fetchCachedUser()
-            }
+            await fetchCachedUser()
             return
         }
         self.user = currentUser
     }
     
-    func loginButtonTapped(name: String) {
+    func loginButtonTapped(name: String) async {
         if !name.isEmpty {
-            Task {
-                await connectUser(userId: name)
-            }
+            await connectUser(userId: name)
         } else {
             errorMessage = "Please enter a valid username"
         }
@@ -57,7 +54,7 @@ final class LoginViewModel: ObservableObject {
     
     func continueButtonTapped() {
         if let user = user {
-            presentMainViewController(user: user)
+            router.presentMainViewController(user: user)
         } else {
             errorMessage = "Please login"
         }
@@ -77,23 +74,7 @@ final class LoginViewModel: ObservableObject {
         case .success(let user):
             self.user = user
         case .failure(let error):
-            self.errorMessage = error.localizedDescription
+            self.errorMessage = error.message
         }
-    }
-    
-    private func presentMainViewController(user: UserModel) {
-        let tabBarController = UITabBarController()
-        let channelListView = ChannelListView(viewModel: ChannelListViewModel(user: user))
-        tabBarController.setViewControllers([
-            UINavigationController(rootViewController: UIHostingController(rootView: channelListView))
-        ], animated: false)
-        tabBarController.modalPresentationStyle = .fullScreen
-    
-        let window = UIApplication
-            .shared
-            .connectedScenes
-            .flatMap { ($0 as?UIWindowScene)?.windows ?? [] }
-            .first(where: \.isKeyWindow)
-        window?.rootViewController?.present(tabBarController, animated: true)
     }
 }
