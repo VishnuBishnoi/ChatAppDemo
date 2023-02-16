@@ -44,16 +44,15 @@ final class ChatUseCase: NSObject, ChatUseCaseType {
     init(channelUsecase: OpenChannelListUseCaseType) {
         self.channelUsecase = channelUsecase
         super.init()
-//        SendbirdChat.addConnectionDelegate(self, identifier: UUID().uuidString)
-        SendbirdChat.addChannelDelegate(self, identifier: UUID().uuidString)
+        addEventObserver()
     }
     
     deinit {
-//        removeEventObserver()
-//        SendbirdChat.removeConnectionDelegate(forIdentifier: description)
+        removeEventObserver()
     }
     
     func addEventObserver() {
+        SendbirdChat.addChannelDelegate(self, identifier: description)
     }
     
     func removeEventObserver() {
