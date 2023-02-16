@@ -11,12 +11,6 @@ struct LoginView: View {
     @State var name: String = ""
     @StateObject var viewModel = LoginViewModel()
     
-    var continueButtonAction: () -> Void
-    
-    init(continueButtonAction: @escaping () -> Void) {
-        self.continueButtonAction = continueButtonAction
-    }
-    
     var body: some View {
         LoadingView(isShowing: $viewModel.isDataLoading) {
             VStack() {
@@ -104,6 +98,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(continueButtonAction: {})
+        LoginView()
     }
 }
