@@ -28,9 +28,10 @@ final class LoginViewModel: ObservableObject {
         }
     }
     
-    private let usecase: LoginUseCaseType = LoginUseCase()
+    private let usecase: LoginUseCaseType
     
-    init()  {
+    init(usecase: LoginUseCaseType = LoginUseCase())  {
+        self.usecase = usecase
         loadCachedUser()
     }
     

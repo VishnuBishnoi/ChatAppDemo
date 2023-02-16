@@ -35,6 +35,8 @@
 		3695A612299D4EED00D8AC84 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A611299D4EED00D8AC84 /* ActivityIndicator.swift */; };
 		3695A614299D5E0600D8AC84 /* ChannelListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A613299D5E0600D8AC84 /* ChannelListUseCase.swift */; };
 		3695A616299D6BAD00D8AC84 /* ChatUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A615299D6BAD00D8AC84 /* ChatUseCase.swift */; };
+		3695A618299E406800D8AC84 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A617299E406800D8AC84 /* LoginViewModelTests.swift */; };
+		3695A61A299E409000D8AC84 /* MockLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A619299E409000D8AC84 /* MockLoginUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		3695A611299D4EED00D8AC84 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		3695A613299D5E0600D8AC84 /* ChannelListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListUseCase.swift; sourceTree = "<group>"; };
 		3695A615299D6BAD00D8AC84 /* ChatUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUseCase.swift; sourceTree = "<group>"; };
+		3695A617299E406800D8AC84 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		3695A619299E409000D8AC84 /* MockLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				367C2806299B5C6E003E81F2 /* ChatAppDemoTests.swift */,
+				3695A617299E406800D8AC84 /* LoginViewModelTests.swift */,
+				3695A619299E409000D8AC84 /* MockLoginUseCase.swift */,
 			);
 			path = ChatAppDemoTests;
 			sourceTree = "<group>";
@@ -496,6 +502,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3695A618299E406800D8AC84 /* LoginViewModelTests.swift in Sources */,
+				3695A61A299E409000D8AC84 /* MockLoginUseCase.swift in Sources */,
 				367C2807299B5C6E003E81F2 /* ChatAppDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
