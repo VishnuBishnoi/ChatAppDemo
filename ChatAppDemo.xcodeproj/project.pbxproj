@@ -14,9 +14,6 @@
 		367C2811299B5C6E003E81F2 /* ChatAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C2810299B5C6E003E81F2 /* ChatAppDemoUITests.swift */; };
 		367C2813299B5C6E003E81F2 /* ChatAppDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C2812299B5C6E003E81F2 /* ChatAppDemoUITestsLaunchTests.swift */; };
 		367C2821299B660B003E81F2 /* SendbirdChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 367C2820299B660B003E81F2 /* SendbirdChatSDK */; };
-		367C2835299B77BD003E81F2 /* CommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367C282B299B77BD003E81F2 /* CommonModule.framework */; };
-		367C2840299B77BD003E81F2 /* CommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367C282B299B77BD003E81F2 /* CommonModule.framework */; };
-		367C2841299B77BD003E81F2 /* CommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 367C282B299B77BD003E81F2 /* CommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3695A5A5299B818600D8AC84 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3695A5A4299B818600D8AC84 /* Kingfisher */; };
 		3695A5D1299BC5F900D8AC84 /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A5D0299BC5F900D8AC84 /* ChannelListView.swift */; };
 		3695A5D3299BCA5900D8AC84 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695A5D2299BCA5900D8AC84 /* ChannelView.swift */; };
@@ -55,27 +52,6 @@
 			remoteGlobalIDString = 367C27F1299B5C6D003E81F2;
 			remoteInfo = ChatAppDemo;
 		};
-		367C2836299B77BD003E81F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 367C27EA299B5C6D003E81F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 367C282A299B77BD003E81F2;
-			remoteInfo = CommonModule;
-		};
-		367C2838299B77BD003E81F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 367C27EA299B5C6D003E81F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 367C27F1299B5C6D003E81F2;
-			remoteInfo = ChatAppDemo;
-		};
-		367C283E299B77BD003E81F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 367C27EA299B5C6D003E81F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 367C282A299B77BD003E81F2;
-			remoteInfo = CommonModule;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				367C2841299B77BD003E81F2 /* CommonModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,8 +77,6 @@
 		367C280C299B5C6E003E81F2 /* ChatAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C2810299B5C6E003E81F2 /* ChatAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppDemoUITests.swift; sourceTree = "<group>"; };
 		367C2812299B5C6E003E81F2 /* ChatAppDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		367C282B299B77BD003E81F2 /* CommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		367C2834299B77BD003E81F2 /* CommonModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3695A5D0299BC5F900D8AC84 /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
 		3695A5D2299BCA5900D8AC84 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
 		3695A5D5299BEB6500D8AC84 /* ChannelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewModel.swift; sourceTree = "<group>"; };
@@ -133,7 +106,6 @@
 			files = (
 				3695A5A5299B818600D8AC84 /* Kingfisher in Frameworks */,
 				367C2821299B660B003E81F2 /* SendbirdChatSDK in Frameworks */,
-				367C2840299B77BD003E81F2 /* CommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,21 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367C2828299B77BD003E81F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367C2831299B77BD003E81F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				367C2835299B77BD003E81F2 /* CommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +142,6 @@
 				367C27F2299B5C6D003E81F2 /* ChatAppDemo.app */,
 				367C2802299B5C6E003E81F2 /* ChatAppDemoTests.xctest */,
 				367C280C299B5C6E003E81F2 /* ChatAppDemoUITests.xctest */,
-				367C282B299B77BD003E81F2 /* CommonModule.framework */,
-				367C2834299B77BD003E81F2 /* CommonModuleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,16 +331,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		367C2826299B77BD003E81F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		367C27F1299B5C6D003E81F2 /* ChatAppDemo */ = {
 			isa = PBXNativeTarget;
@@ -399,7 +344,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				367C283F299B77BD003E81F2 /* PBXTargetDependency */,
 			);
 			name = ChatAppDemo;
 			packageProductDependencies = (
@@ -446,43 +390,6 @@
 			productReference = 367C280C299B5C6E003E81F2 /* ChatAppDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		367C282A299B77BD003E81F2 /* CommonModule */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 367C2842299B77BE003E81F2 /* Build configuration list for PBXNativeTarget "CommonModule" */;
-			buildPhases = (
-				367C2826299B77BD003E81F2 /* Headers */,
-				367C2827299B77BD003E81F2 /* Sources */,
-				367C2828299B77BD003E81F2 /* Frameworks */,
-				367C2829299B77BD003E81F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CommonModule;
-			productName = CommonModule;
-			productReference = 367C282B299B77BD003E81F2 /* CommonModule.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		367C2833299B77BD003E81F2 /* CommonModuleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 367C2846299B77BE003E81F2 /* Build configuration list for PBXNativeTarget "CommonModuleTests" */;
-			buildPhases = (
-				367C2830299B77BD003E81F2 /* Sources */,
-				367C2831299B77BD003E81F2 /* Frameworks */,
-				367C2832299B77BD003E81F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				367C2837299B77BD003E81F2 /* PBXTargetDependency */,
-				367C2839299B77BD003E81F2 /* PBXTargetDependency */,
-			);
-			name = CommonModuleTests;
-			productName = CommonModuleTests;
-			productReference = 367C2834299B77BD003E81F2 /* CommonModuleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -501,13 +408,6 @@
 						TestTargetID = 367C27F1299B5C6D003E81F2;
 					};
 					367C280B299B5C6E003E81F2 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 367C27F1299B5C6D003E81F2;
-					};
-					367C282A299B77BD003E81F2 = {
-						CreatedOnToolsVersion = 14.1;
-					};
-					367C2833299B77BD003E81F2 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 367C27F1299B5C6D003E81F2;
 					};
@@ -533,8 +433,6 @@
 				367C27F1299B5C6D003E81F2 /* ChatAppDemo */,
 				367C2801299B5C6E003E81F2 /* ChatAppDemoTests */,
 				367C280B299B5C6E003E81F2 /* ChatAppDemoUITests */,
-				367C282A299B77BD003E81F2 /* CommonModule */,
-				367C2833299B77BD003E81F2 /* CommonModuleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,20 +455,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		367C280A299B5C6E003E81F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367C2829299B77BD003E81F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367C2832299B77BD003E81F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,20 +509,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		367C2827299B77BD003E81F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367C2830299B77BD003E81F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -651,21 +521,6 @@
 			isa = PBXTargetDependency;
 			target = 367C27F1299B5C6D003E81F2 /* ChatAppDemo */;
 			targetProxy = 367C280D299B5C6E003E81F2 /* PBXContainerItemProxy */;
-		};
-		367C2837299B77BD003E81F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 367C282A299B77BD003E81F2 /* CommonModule */;
-			targetProxy = 367C2836299B77BD003E81F2 /* PBXContainerItemProxy */;
-		};
-		367C2839299B77BD003E81F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 367C27F1299B5C6D003E81F2 /* ChatAppDemo */;
-			targetProxy = 367C2838299B77BD003E81F2 /* PBXContainerItemProxy */;
-		};
-		367C283F299B77BD003E81F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 367C282A299B77BD003E81F2 /* CommonModule */;
-			targetProxy = 367C283E299B77BD003E81F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -918,102 +773,6 @@
 			};
 			name = Release;
 		};
-		367C2843299B77BE003E81F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N7U2DC3WBS;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-ChatAppDemo.CommonModule";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		367C2844299B77BE003E81F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N7U2DC3WBS;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-ChatAppDemo.CommonModule";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		367C2847299B77BE003E81F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N7U2DC3WBS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-ChatAppDemo.CommonModuleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAppDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatAppDemo";
-			};
-			name = Debug;
-		};
-		367C2848299B77BE003E81F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N7U2DC3WBS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-ChatAppDemo.CommonModuleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAppDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatAppDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1049,24 +808,6 @@
 			buildConfigurations = (
 				367C281D299B5C6E003E81F2 /* Debug */,
 				367C281E299B5C6E003E81F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		367C2842299B77BE003E81F2 /* Build configuration list for PBXNativeTarget "CommonModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				367C2843299B77BE003E81F2 /* Debug */,
-				367C2844299B77BE003E81F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		367C2846299B77BE003E81F2 /* Build configuration list for PBXNativeTarget "CommonModuleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				367C2847299B77BE003E81F2 /* Debug */,
-				367C2848299B77BE003E81F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
