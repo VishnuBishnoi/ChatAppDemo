@@ -13,7 +13,7 @@ struct ChannelListView: View {
     
     var body: some View {
         NavigationView {
-            VStack() {
+            VStack(alignment: .leading) {
                 HStack() {
                     AsyncImage(url: URL(string: viewModel.user.avatar!)) { image in
                         image.resizable()
@@ -23,8 +23,8 @@ struct ChannelListView: View {
                     .frame(width: 40, height: 40, alignment: .center)
                     .shadow(radius: 20)
                     .cornerRadius(20)
+                    .padding()
                     Text(viewModel.user.name ?? "No Name")
-                        .padding(10)
                         .foregroundColor(Color.black)
                         .cornerRadius(10)
                 }
