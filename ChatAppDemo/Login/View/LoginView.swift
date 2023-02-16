@@ -35,14 +35,7 @@ struct LoginView: View {
                 .padding(.horizontal)
                 
                 Button {
-                    if !name.isEmpty {
-                        Task {
-                            await viewModel.connectUser(userId: name)
-                        }
-                    } else {
-                        viewModel.showAlert = true
-                        viewModel.errorMessage = "Please enter a valid username"
-                    }
+                    viewModel.loginButtonTapped(name: name)
                 } label: {
                     Text("Login")
                         .font(.title2)
@@ -58,12 +51,7 @@ struct LoginView: View {
                 .padding()
                 
                 Button {
-                    if let user = viewModel.user {
-                        presentMainViewController(user: user)
-                    } else {
-                        viewModel.showAlert = true
-                        viewModel.errorMessage = "Please login"
-                    }
+                    viewModel.continueButtonTapped()
                 } label: {
                     Text("Continue")
                         .font(.title2)
@@ -83,22 +71,6 @@ struct LoginView: View {
             }
             
         }
-    }
-    
-    private func presentMainViewController(user: UserModel) {
-        let tabBarController = UITabBarController()
-        let channelListView = ChannelListView(viewModel: ChannelListViewModel(user: user))
-        tabBarController.setViewControllers([
-            UINavigationController(rootViewController: UIHostingController(rootView: channelListView))
-        ], animated: false)
-        tabBarController.modalPresentationStyle = .fullScreen
-    
-        let window = UIApplication
-            .shared
-            .connectedScenes
-            .flatMap { ($0 as?UIWindowScene)?.windows ?? [] }
-            .first(where: \.isKeyWindow)
-        window?.rootViewController?.present(tabBarController, animated: true)
     }
 }
 
