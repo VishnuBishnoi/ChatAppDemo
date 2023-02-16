@@ -35,7 +35,9 @@ struct LoginView: View {
                 .padding(.horizontal)
                 
                 Button {
-                    viewModel.loginButtonTapped(name: name)
+                    Task {
+                        await viewModel.loginButtonTapped(name: name)
+                    }
                 } label: {
                     Text("Login")
                         .font(.title2)
@@ -70,6 +72,10 @@ struct LoginView: View {
                 Alert(title: Text("Error"), message: Text(viewModel.errorMessage), dismissButton: .default(Text("Got it!")))
             }
             
+        }.onAppear {
+            Task {
+                await viewModel.fetchUserIfAlreadyLogedIn()
+            }
         }
     }
 }

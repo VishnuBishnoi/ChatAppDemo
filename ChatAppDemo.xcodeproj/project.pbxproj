@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		365C7BAC299E51CC00B9D87D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C7BAB299E51CC00B9D87D /* LoginRouter.swift */; };
+		365C7BAE299E52CB00B9D87D /* MockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C7BAD299E52CB00B9D87D /* MockRouter.swift */; };
 		367C27F6299B5C6D003E81F2 /* ChatAppDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C27F5299B5C6D003E81F2 /* ChatAppDemoApp.swift */; };
 		367C27FA299B5C6E003E81F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C27F9299B5C6E003E81F2 /* Assets.xcassets */; };
 		367C27FD299B5C6E003E81F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C27FC299B5C6E003E81F2 /* Preview Assets.xcassets */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		365C7BAB299E51CC00B9D87D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		365C7BAD299E52CB00B9D87D /* MockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRouter.swift; sourceTree = "<group>"; };
 		367C27F2299B5C6D003E81F2 /* ChatAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C27F5299B5C6D003E81F2 /* ChatAppDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppDemoApp.swift; sourceTree = "<group>"; };
 		367C27F9299B5C6E003E81F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				367C2806299B5C6E003E81F2 /* ChatAppDemoTests.swift */,
 				3695A617299E406800D8AC84 /* LoginViewModelTests.swift */,
 				3695A619299E409000D8AC84 /* MockLoginUseCase.swift */,
+				365C7BAD299E52CB00B9D87D /* MockRouter.swift */,
 			);
 			path = ChatAppDemoTests;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			files = (
 				3695A618299E406800D8AC84 /* LoginViewModelTests.swift in Sources */,
 				3695A61A299E409000D8AC84 /* MockLoginUseCase.swift in Sources */,
+				365C7BAE299E52CB00B9D87D /* MockRouter.swift in Sources */,
 				367C2807299B5C6E003E81F2 /* ChatAppDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

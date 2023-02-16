@@ -14,9 +14,12 @@ class MockLoginUseCase: LoginUseCaseType {
     var userId: String? = nil
     var isAutoLogin: Bool = false
     
-    var result: Result<UserModel, ChannelListUseCaseError>!
+    var result: Result<UserModel, ChannelListUseCaseError>?
+    
+    var loginCalled = false
     func login(userId: String) async -> Result<UserModel, ChannelListUseCaseError> {
-        return result
+        loginCalled = true
+        return result ?? .failure(.genricError)
     }
 }
 
