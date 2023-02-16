@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365C7BAC299E51CC00B9D87D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C7BAB299E51CC00B9D87D /* LoginRouter.swift */; };
 		367C27F6299B5C6D003E81F2 /* ChatAppDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C27F5299B5C6D003E81F2 /* ChatAppDemoApp.swift */; };
 		367C27FA299B5C6E003E81F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C27F9299B5C6E003E81F2 /* Assets.xcassets */; };
 		367C27FD299B5C6E003E81F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C27FC299B5C6E003E81F2 /* Preview Assets.xcassets */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		365C7BAB299E51CC00B9D87D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		367C27F2299B5C6D003E81F2 /* ChatAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C27F5299B5C6D003E81F2 /* ChatAppDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppDemoApp.swift; sourceTree = "<group>"; };
 		367C27F9299B5C6E003E81F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				3695A60C299D4AB100D8AC84 /* Model */,
 				3695A60D299D4AB900D8AC84 /* ViewModel */,
 				3695A60E299D4AC300D8AC84 /* Usecase */,
+				365C7BAB299E51CC00B9D87D /* LoginRouter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				3695A5D3299BCA5900D8AC84 /* ChannelView.swift in Sources */,
 				3695A5FF299D46C800D8AC84 /* LoginUseCase.swift in Sources */,
 				3695A5ED299BF5CD00D8AC84 /* ViewExtension.swift in Sources */,
+				365C7BAC299E51CC00B9D87D /* LoginRouter.swift in Sources */,
 				3695A5E1299BF57300D8AC84 /* MessageView.swift in Sources */,
 				3695A5D6299BEB6500D8AC84 /* ChannelListViewModel.swift in Sources */,
 				3695A5E0299BF57300D8AC84 /* ContentMessageView.swift in Sources */,
